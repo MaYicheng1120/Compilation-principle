@@ -1,0 +1,287 @@
+步骤1	分析栈:# FUNCTIONS 	余留输入串：int main ( ) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤2	分析栈:# FUNLIST FUNCTION 	余留输入串：int main ( ) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤3	分析栈:# FUNLIST FUNC_BODY ) ARGS ( id TYPE 	余留输入串：int main ( ) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤4	分析栈:# FUNLIST FUNC_BODY ) ARGS ( id int 	余留输入串：int main ( ) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤5	分析栈:# FUNLIST FUNC_BODY ) ARGS ( id 	余留输入串：main ( ) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤6	分析栈:# FUNLIST FUNC_BODY ) ARGS ( 	余留输入串：( ) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤7	分析栈:# FUNLIST FUNC_BODY ) ARGS 	余留输入串：) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤8	分析栈:# FUNLIST FUNC_BODY ) 	余留输入串：) { int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤9	分析栈:# FUNLIST FUNC_BODY 	余留输入串：{ int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤10	分析栈:# FUNLIST } STMTS { 	余留输入串：{ int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤11	分析栈:# FUNLIST } STMTS 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤12	分析栈:# FUNLIST } STMTS STMT 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤13	分析栈:# FUNLIST } STMTS EXPR_STMT 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤14	分析栈:# FUNLIST } STMTS ; EXPR 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤15	分析栈:# FUNLIST } STMTS ; EARGS 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤16	分析栈:# FUNLIST } STMTS ; EALIST FARGS 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤17	分析栈:# FUNLIST } STMTS ; EALIST id TYPE 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤18	分析栈:# FUNLIST } STMTS ; EALIST id int 	余留输入串：int i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤19	分析栈:# FUNLIST } STMTS ; EALIST id 	余留输入串：i ; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤20	分析栈:# FUNLIST } STMTS ; EALIST 	余留输入串：; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤21	分析栈:# FUNLIST } STMTS ; 	余留输入串：; int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤22	分析栈:# FUNLIST } STMTS 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤23	分析栈:# FUNLIST } STMTS STMT 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤24	分析栈:# FUNLIST } STMTS EXPR_STMT 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤25	分析栈:# FUNLIST } STMTS ; EXPR 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤26	分析栈:# FUNLIST } STMTS ; EARGS 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤27	分析栈:# FUNLIST } STMTS ; EALIST FARGS 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤28	分析栈:# FUNLIST } STMTS ; EALIST id TYPE 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤29	分析栈:# FUNLIST } STMTS ; EALIST id int 	余留输入串：int a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤30	分析栈:# FUNLIST } STMTS ; EALIST id 	余留输入串：a ; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤31	分析栈:# FUNLIST } STMTS ; EALIST 	余留输入串：; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤32	分析栈:# FUNLIST } STMTS ; 	余留输入串：; for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤33	分析栈:# FUNLIST } STMTS 	余留输入串：for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤34	分析栈:# FUNLIST } STMTS STMT 	余留输入串：for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤35	分析栈:# FUNLIST } STMTS FOR_STMT 	余留输入串：for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤36	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT EXPR_STMT ( for 	余留输入串：for ( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤37	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT EXPR_STMT ( 	余留输入串：( i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤38	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT EXPR_STMT 	余留输入串：i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤39	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; EXPR 	余留输入串：i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤40	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; FLIST FACTOR 	余留输入串：i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤41	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; FLIST id 	余留输入串：i = 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤42	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; FLIST 	余留输入串：= 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤43	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; FLIST FACTOR = 	余留输入串：= 0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤44	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; FLIST FACTOR 	余留输入串：0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤45	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; FLIST id 	余留输入串：0 ; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤46	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; FLIST 	余留输入串：; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤47	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT ; 	余留输入串：; i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤48	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR EXPR_STMT 	余留输入串：i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤49	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; EXPR 	余留输入串：i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤50	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; FLIST FACTOR 	余留输入串：i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤51	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; FLIST id 	余留输入串：i = 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤52	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; FLIST 	余留输入串：= 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤53	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; FLIST FACTOR = 	余留输入串：= 10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤54	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; FLIST FACTOR 	余留输入串：10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤55	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; FLIST id 	余留输入串：10 ; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤56	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; FLIST 	余留输入串：; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤57	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR ; 	余留输入串：; i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤58	分析栈:# FUNLIST } STMTS } STMTS { ) EXPR 	余留输入串：i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤59	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST FACTOR 	余留输入串：i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤60	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST id 	余留输入串：i = i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤61	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST 	余留输入串：= i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤62	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST FACTOR = 	余留输入串：= i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤63	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST FACTOR 	余留输入串：i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤64	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST id 	余留输入串：i + 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤65	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST 	余留输入串：+ 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤66	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST FACTOR + 	余留输入串：+ 1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤67	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST FACTOR 	余留输入串：1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤68	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST id 	余留输入串：1 ) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤69	分析栈:# FUNLIST } STMTS } STMTS { ) FLIST 	余留输入串：) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤70	分析栈:# FUNLIST } STMTS } STMTS { ) 	余留输入串：) { a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤71	分析栈:# FUNLIST } STMTS } STMTS { 	余留输入串：{ a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤72	分析栈:# FUNLIST } STMTS } STMTS 	余留输入串：a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤73	分析栈:# FUNLIST } STMTS } STMTS STMT 	余留输入串：a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤74	分析栈:# FUNLIST } STMTS } STMTS EXPR_STMT 	余留输入串：a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤75	分析栈:# FUNLIST } STMTS } STMTS ; EXPR 	余留输入串：a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤76	分析栈:# FUNLIST } STMTS } STMTS ; FLIST FACTOR 	余留输入串：a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤77	分析栈:# FUNLIST } STMTS } STMTS ; FLIST id 	余留输入串：a = a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤78	分析栈:# FUNLIST } STMTS } STMTS ; FLIST 	余留输入串：= a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤79	分析栈:# FUNLIST } STMTS } STMTS ; FLIST FACTOR = 	余留输入串：= a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤80	分析栈:# FUNLIST } STMTS } STMTS ; FLIST FACTOR 	余留输入串：a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤81	分析栈:# FUNLIST } STMTS } STMTS ; FLIST id 	余留输入串：a + 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤82	分析栈:# FUNLIST } STMTS } STMTS ; FLIST 	余留输入串：+ 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤83	分析栈:# FUNLIST } STMTS } STMTS ; FLIST FACTOR + 	余留输入串：+ 1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤84	分析栈:# FUNLIST } STMTS } STMTS ; FLIST FACTOR 	余留输入串：1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤85	分析栈:# FUNLIST } STMTS } STMTS ; FLIST id 	余留输入串：1 ; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤86	分析栈:# FUNLIST } STMTS } STMTS ; FLIST 	余留输入串：; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤87	分析栈:# FUNLIST } STMTS } STMTS ; 	余留输入串：; } if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤88	分析栈:# FUNLIST } STMTS } STMTS 	余留输入串：} if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤89	分析栈:# FUNLIST } STMTS } 	余留输入串：} if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤90	分析栈:# FUNLIST } STMTS 	余留输入串：if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤91	分析栈:# FUNLIST } STMTS STMT 	余留输入串：if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤92	分析栈:# FUNLIST } STMTS IF_STMT 	余留输入串：if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤93	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { ) EXPR ( if 	余留输入串：if ( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤94	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { ) EXPR ( 	余留输入串：( a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤95	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { ) EXPR 	余留输入串：a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤96	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { ) FLIST FACTOR 	余留输入串：a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤97	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { ) FLIST id 	余留输入串：a ) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤98	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { ) FLIST 	余留输入串：) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤99	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { ) 	余留输入串：) { a = 0 ; } a = 0 ; return a ; } # 
+
+步骤100	分析栈:# FUNLIST } STMTS ELSEIF } STMTS { 	余留输入串：{ a = 0 ; } a = 0 ; return a ; } # 
+
+步骤101	分析栈:# FUNLIST } STMTS ELSEIF } STMTS 	余留输入串：a = 0 ; } a = 0 ; return a ; } # 
+
+步骤102	分析栈:# FUNLIST } STMTS ELSEIF } STMTS STMT 	余留输入串：a = 0 ; } a = 0 ; return a ; } # 
+
+步骤103	分析栈:# FUNLIST } STMTS ELSEIF } STMTS EXPR_STMT 	余留输入串：a = 0 ; } a = 0 ; return a ; } # 
+
+步骤104	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; EXPR 	余留输入串：a = 0 ; } a = 0 ; return a ; } # 
+
+步骤105	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; FLIST FACTOR 	余留输入串：a = 0 ; } a = 0 ; return a ; } # 
+
+步骤106	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; FLIST id 	余留输入串：a = 0 ; } a = 0 ; return a ; } # 
+
+步骤107	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; FLIST 	余留输入串：= 0 ; } a = 0 ; return a ; } # 
+
+步骤108	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; FLIST FACTOR = 	余留输入串：= 0 ; } a = 0 ; return a ; } # 
+
+步骤109	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; FLIST FACTOR 	余留输入串：0 ; } a = 0 ; return a ; } # 
+
+步骤110	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; FLIST id 	余留输入串：0 ; } a = 0 ; return a ; } # 
+
+步骤111	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; FLIST 	余留输入串：; } a = 0 ; return a ; } # 
+
+步骤112	分析栈:# FUNLIST } STMTS ELSEIF } STMTS ; 	余留输入串：; } a = 0 ; return a ; } # 
+
+步骤113	分析栈:# FUNLIST } STMTS ELSEIF } STMTS 	余留输入串：} a = 0 ; return a ; } # 
+
+步骤114	分析栈:# FUNLIST } STMTS ELSEIF } 	余留输入串：} a = 0 ; return a ; } # 
+
+步骤115	分析栈:# FUNLIST } STMTS ELSEIF 	余留输入串：a = 0 ; return a ; } # 
+
+步骤116	分析栈:# FUNLIST } STMTS STMTS 	余留输入串：a = 0 ; return a ; } # 
+
+步骤117	分析栈:# FUNLIST } STMTS STMTS STMT 	余留输入串：a = 0 ; return a ; } # 
+
+步骤118	分析栈:# FUNLIST } STMTS STMTS EXPR_STMT 	余留输入串：a = 0 ; return a ; } # 
+
+步骤119	分析栈:# FUNLIST } STMTS STMTS ; EXPR 	余留输入串：a = 0 ; return a ; } # 
+
+步骤120	分析栈:# FUNLIST } STMTS STMTS ; FLIST FACTOR 	余留输入串：a = 0 ; return a ; } # 
+
+步骤121	分析栈:# FUNLIST } STMTS STMTS ; FLIST id 	余留输入串：a = 0 ; return a ; } # 
+
+步骤122	分析栈:# FUNLIST } STMTS STMTS ; FLIST 	余留输入串：= 0 ; return a ; } # 
+
+步骤123	分析栈:# FUNLIST } STMTS STMTS ; FLIST FACTOR = 	余留输入串：= 0 ; return a ; } # 
+
+步骤124	分析栈:# FUNLIST } STMTS STMTS ; FLIST FACTOR 	余留输入串：0 ; return a ; } # 
+
+步骤125	分析栈:# FUNLIST } STMTS STMTS ; FLIST id 	余留输入串：0 ; return a ; } # 
+
+步骤126	分析栈:# FUNLIST } STMTS STMTS ; FLIST 	余留输入串：; return a ; } # 
+
+步骤127	分析栈:# FUNLIST } STMTS STMTS ; 	余留输入串：; return a ; } # 
+
+步骤128	分析栈:# FUNLIST } STMTS STMTS 	余留输入串：return a ; } # 
+
+步骤129	分析栈:# FUNLIST } STMTS STMTS STMT 	余留输入串：return a ; } # 
+
+步骤130	分析栈:# FUNLIST } STMTS STMTS RET_STMT 	余留输入串：return a ; } # 
+
+步骤131	分析栈:# FUNLIST } STMTS STMTS EXPR_STMT return 	余留输入串：return a ; } # 
+
+步骤132	分析栈:# FUNLIST } STMTS STMTS EXPR_STMT 	余留输入串：a ; } # 
+
+步骤133	分析栈:# FUNLIST } STMTS STMTS ; EXPR 	余留输入串：a ; } # 
+
+步骤134	分析栈:# FUNLIST } STMTS STMTS ; FLIST FACTOR 	余留输入串：a ; } # 
+
+步骤135	分析栈:# FUNLIST } STMTS STMTS ; FLIST id 	余留输入串：a ; } # 
+
+步骤136	分析栈:# FUNLIST } STMTS STMTS ; FLIST 	余留输入串：; } # 
+
+步骤137	分析栈:# FUNLIST } STMTS STMTS ; 	余留输入串：; } # 
+
+步骤138	分析栈:# FUNLIST } STMTS STMTS 	余留输入串：} # 
+
+步骤139	分析栈:# FUNLIST } STMTS 	余留输入串：} # 
+
+步骤140	分析栈:# FUNLIST } 	余留输入串：} # 
+
+步骤141	分析栈:# FUNLIST 	余留输入串：# 
+
+步骤142	分析栈:# 	余留输入串：# 
+
+步骤143	
+
+acc
